@@ -72,14 +72,14 @@ favoriteThings.book = 'Harry Potter'
 let backPack = {}
 let item = 'firstPocket'
 backPack[item] = 'chapstick'
-
+backPack.color = 'black'
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-alert(backPack)
+//alert(backPack)
 
 
 /*
@@ -112,7 +112,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
@@ -135,7 +136,7 @@ var user2 = {
 */
 
 //Code Here
-
+let methodCollection = {}
 
 
 /*
@@ -144,15 +145,20 @@ var user2 = {
 */
 
 //Code Here
-
-
+methodCollection.alertHello = function(){
+  alert('hello')
+}
+methodCollection.logHello = function(){
+  console.log('hello')
+}
 
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.alertHello
+methodCollection.logHello
 
 
 ////////// PROBLEM 6 //////////
@@ -163,6 +169,14 @@ var user2 = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  let newOb = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  }
+  return newOb
+}
 
 
 
@@ -175,4 +189,12 @@ var user2 = {
 
 //Code Here
 
+function makeCard(cardNumber, expirationDate, securityCode){
+  let newCard = {
+    number: cardNumber,
+    expires: expirationDate,
+    code: securityCode
+  }
+  return newCard
+}
 
