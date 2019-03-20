@@ -15,8 +15,11 @@
 */
 
 //Code here
-
-
+let me = {
+  name: 'Dillon',
+  age: 27
+}
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +29,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'Beck',
+  food: 'Ramen',
+  person: 'Jess',
+  book: 'Roadside Picnic',
+  movie: 'Blade Runner',
+  holiday: 'Christmas'
+}
 
 
 /*
@@ -34,7 +44,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Schwimmwagen'
+favoriteThings.brand = 'Sennheiser'
 
 
 /*
@@ -42,7 +53,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 ////////// PROBLEM 3 //////////
@@ -57,6 +69,9 @@
 
 //Code here
 
+let backPack = {}
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
 
 
 /*
@@ -64,7 +79,7 @@
 */
 
 //Code here
-
+alert(backPack)
 
 
 /*
@@ -74,7 +89,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
